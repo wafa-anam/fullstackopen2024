@@ -1,0 +1,16 @@
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+    "content": "test note",
+    "important": true
+}
+
+###
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+    "name": "Wafa Anam",
+    "number": "403 970 6114"
+}
