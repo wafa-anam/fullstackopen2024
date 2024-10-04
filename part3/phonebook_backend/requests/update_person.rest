@@ -1,0 +1,23 @@
+PUT http://localhost:3001/api/persons/66fef9e7bad72d8bb9e0c63f
+content-type: application/json
+
+{
+    "name": "Wafa",
+    "number": "4567890"
+}
+
+###
+PUT http://localhost:3001/api/persons/66fef9e7bad72d8bb9e0c63f
+content-type: application/json
+
+{
+    "name": "wa"
+}
+
+###
+PUT http://localhost:3001/api/persons/66fef9e7bad72d8bb9e0c63f
+content-type: application/json
+
+{
+    "number": "wa"
+}

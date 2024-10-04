@@ -2,3 +2,6 @@ GET http://localhost:3001/api/persons
 
 ###
 GET http://localhost:3001/api/persons/1
+
+###
+GET https://fullstackopen2024-6lbg.onrender.com/api/persons

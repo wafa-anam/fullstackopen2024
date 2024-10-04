@@ -11,8 +11,16 @@ POST http://localhost:3001/api/persons
 content-type: application/json
 
 {
-    "name": "Wafa Anam",
-    "number": "403 970 6114"
+    "name": "Wafa Banam",
+    "number": "403 970 6115"
+}
+
+###
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+    "number": "678"
 }
 
 ### 
